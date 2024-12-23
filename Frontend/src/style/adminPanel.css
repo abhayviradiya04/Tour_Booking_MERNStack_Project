@@ -1,0 +1,12 @@
+.button_style{
+    background-color: var(--secondary-color) !important;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
