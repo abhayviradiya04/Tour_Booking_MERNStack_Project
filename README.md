@@ -1,103 +1,99 @@
-🌍 Tour Booking Platform – MERN Stack Edition
-🚀 A comprehensive tour booking platform built with the MERN Stack, enabling users to explore and book tours, and administrators to manage bookings, reviews, and payments.
 
-📜 Features
-👤 User Functionalities
-✅ User Registration & Login with JWT Authentication
+## 🌍 Tour Booking Project  
 
-✉️ Email Verification during registration
+🚀A full-featured tour booking platform built with the **MERN Stack: MongoDB, Express.js, React.js, and Node.js.** 
+This application allows users to explore and book tours, while **admin** can manage tours, bookings, reviews, and payments.
 
-🔍 Browse & Search for tours
+---
 
-💳 Book Tours and process payments via Razorpay
+### 📜 Features  
 
-📅 User Dashboard to view booked tours
+#### 👤 **User Functionalities**  
+✅ **Register/Login** (JWT Authentication)  
+✉️ **Email Verification** during registration  
+🔍 **View & Search** for specific tours  
+💳 **Book a Tour** & complete payment via Razorpay  
+📅 **User Dashboard** to view booked tours  
+📩 **Receive Booking Confirmation Email**  
+✍️ **Review Tours** – Add, Edit, Delete  
 
-📩 Booking Confirmation Emails
+#### 🔐 **Admin Panel Functionalities**  
+🏞️ **Manage Tours** – Add, Edit, Delete  
+📜 **Manage Bookings** – View, Update Status  
+📝 **Review Moderation** – Approve/Delete User Reviews  
+💰 **Check Payment Details**  
+👥 **Manage Users** – View & Control Accounts  
 
-✍️ Review Tours – Add, Edit, Delete
+---
 
-🔐 Admin Panel Functionalities
-🏞️ Manage Tours – Add, Edit, Delete
+### 🛠️ **Tech Stack**  
 
-📜 Manage Bookings – View, Update Status
+#### 🎨 **Frontend (React.js)**  
+⚛️ **React.js**  
+🎨 **Bootstrap&CSS** (Styling)  
 
-📝 Moderate Reviews – Approve/Delete User Reviews
+#### 🖥️ **Backend Node.js**  
+🖥️ **Node.js with Express.js**  
+🗄️ **MongoDB with Mongoose**  
+🔐 **JWT Authentication** (User Authentication)  
+💳 **Razorpay API** (Payment Gateway)  
 
-💰 View Payment Details
+---
 
-👥 Manage Users – View & Control Accounts
+### 📸 **UI Preview**  
 
-🛠️ Tech Stack
-🎨 Frontend
-⚛️ React.js
+#### 🔹 Home Page  
+![Image](https://github.com/user-attachments/assets/1a299f7d-2717-48b1-817e-4680f4fa1315) 
 
-🎨 Tailwind CSS for styling
+#### 🔹 Tour Page  
+![Image](https://github.com/user-attachments/assets/b7e4fb03-0acc-4860-a93a-199023c950ca)
 
-🖥️ Backend
-🟢 Node.js with Express.js
+#### 🔹 Tour Details Page  
+![Image](https://github.com/user-attachments/assets/6db39550-5055-4a95-9143-1d9ad3981607)
 
-🗄️ MongoDB with Mongoose
+#### 🔹 Review Section
+![Image](https://github.com/user-attachments/assets/8377b014-2ced-420c-827b-424cd1727831)
 
-🔐 JWT for authentication
+#### 🔹 My Tour  
+![Image](https://github.com/user-attachments/assets/d1601855-6c82-4b8f-90dc-908f6ba621e7)
 
-💳 Razorpay API for payment processing
-
-📸 UI Preview
-🔹 Home Page
-
-
-🔹 Tour Page
-
-
-🔹 Tour Details Page
-
-
-🔹 Review Section
-
-
-🔹 My Tours
+#### 🔹 Admin Page
+![Image](https://github.com/user-attachments/assets/206fdf50-a217-4f93-a882-9600b94a050a)
 
 
-🔹 Admin Page
+---
 
+### 🚀 **How to Run the Project?**  
 
-🚀 Getting Started
-Backend Setup
-bash
-Copy
-Edit
-cd backend
-npm install
+#### **Backend (Node.js ApPI) 🏗️**  
+```sh
+cd Backend/TourBookingApi  
 npm run dev
-API runs on http://localhost:5000/api
+👉 API runs on http://localhost:5049/api/Tour/GetTours
 
-Frontend Setup
-bash
-Copy
-Edit
-cd frontend
-npm install
-npm start
-App runs on http://localhost:3000
+Frontend (React.js) 💻
+sh
+Copy code
+cd Frontend/tour-management  
+npm install  
+npm start  
+👉 App runs on http://localhost:3000/
 
 🔗 API Endpoints
-
 Method	Endpoint	Description
-GET	/api/tours	Retrieve all tours
-POST	/api/auth/register	Register a new user
-POST	/api/auth/login	User login
-POST	/api/bookings	Create a new booking
-GET	/api/bookings/user	Get bookings for a user
-POST	/api/reviews	Add a new review
-📬 Contact
+GET	/api/Tour/GetTours	Get all tours
+POST	/api/User/Register	User registration
+POST	/api/User/Login	User login
+POST	/api/Booking/Create	Book a tour
+GET	/api/Booking/UserBookings	Get user bookings
+POST	/api/Review/Add	Add a tour review
+📬 Contact Me
 📧 Email: abhayviradiya6236@gmail.com
+🔗 GitHub Profile: Abhay Viradiya
 
-🔗 GitHub: Abhay Viradiya
+🎯 Notes: ✔️ Added icons for a better UI experience ✨ ✔️ Used tables for API endpoints 📊 ✔️ Structured sections properly for better readability
 
-🎯 Notes
-✔️ Enhanced UI with intuitive icons
+🚀 Now, your README looks professional and well-formatted! Let me know if you need any changes. 😊
 
-✔️ Structured API endpoints in a clear table format
 
-✔️ Organized sections for improved readability
+
